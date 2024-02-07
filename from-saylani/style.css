@@ -1,0 +1,147 @@
+
+.top {
+    width: 100%;
+}
+
+
+.header {
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgb(223, 207, 207);
+}
+
+
+.logo {
+    width: 400px;
+    height: 100px;
+    margin: auto;
+}
+.main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.group {
+    margin: 10px;
+    width: 30%;
+    height: 80px;
+    display: inline-block;
+}
+.group ul li  {
+    padding: 10px;
+    width:  40px;
+    display: inline-block;
+    list-style-type: none;
+}
+.group ul li img {
+    padding: 10px;
+    width:  40px;
+    display: inline-block;
+    list-style-type: none;
+}
+.group button {
+    width: 140px;
+    border-radius: 25px;
+    height: 40px;
+    margin-top: 20px;
+}
+.nav {
+    width: 100%;
+     text-align: center;
+    height: 30px;
+}
+.three-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+.three-btn div {
+    width: 16%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 10px 10px 10px rgb(232, 225, 225);
+    border: solid white 2px;
+    margin-left: 3px;
+    display: inline-block;
+}
+table {
+    margin: auto;
+}
+table input {
+    width: 400px;
+    height: 50px;
+    margin-left: 30px;
+    border-color:  #7dc019;    
+}
+
+table  p {
+    margin-left: 30px;
+}
+.tr-long  {
+            width: 845px;
+            margin-left: 40px;
+}
+.paragrap  p {
+         margin-left: 50px;
+}
+ .sum {
+    width: 840px;
+   color: black;
+   font-weight: bold;
+   margin-left: 60px;
+   font-size: 20px;
+    background-color: rgb(112, 112, 218);    
+}
+@media only screen and (max-width: 768px) {
+    .logo img {
+        width: 90px;
+        height: 30px;
+        margin-left: 120px;
+    }
+    .group ul li  {
+        padding: 10px;
+        width:  10px;
+        display: inline-block;
+        list-style-type: none;
+    }
+    .hta {
+        font-size: 7px;
+    }
+    
+.group button {
+    width: 130px;
+    border-radius: 25px;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+
+    .three-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+    table input {
+        width: auto;
+
+    }
+    .header {
+        height: 200px;
+    }
+    .sum {
+        width: 440px;
+       color: black;
+       font-weight: bold;
+       margin-left: 60px;
+       font-size: 20px;
+        background-color: rgb(112, 112, 218);    
+    }
+    .paragrap .tr-long {
+        width: 640px;
+    }
+}
